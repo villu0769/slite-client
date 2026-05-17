@@ -1,13 +1,13 @@
 [package]
 name = "villu0769/slite-client"
-version = "0.1.0"
+version = "0.1.1"
 description = "Slite Client"
 
 [dependencies]
 "wasmer/static-web-server" = "^1"
 
 [fs]
-"/public" = "dist" 
+"/public" = "dist"
 
 [[command]]
 name = "script"
@@ -17,6 +17,6 @@ runner = "https://webc.org/runner/wasi"
 [command.annotations.wasi]
 env = [
   "SERVER_PORT=8080", 
-  "ROOT=/public", 
-  "SERVER_PAGE_FALLBACK=/public/index.html"
+  "SERVER_ROOT=/public", 
+  "SERVER_FALLBACK_PAGE=/public/index.html"
 ]
