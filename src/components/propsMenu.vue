@@ -94,7 +94,7 @@
           @click="$emit('update:texture', tex.filename)"
           :title="tex.name"
         >
-          <div class="texture-preview" :style="{ backgroundImage: `url(/app/src/assets/textures/${tex.filename})`, backgroundColor: tex.fallbackColor }"></div>
+          <div class="texture-preview" :style="{ backgroundImage: `url(/src/assets/textures/${tex.filename})`, backgroundColor: tex.fallbackColor }"></div>
         </button>
       </div>
     </div>
@@ -109,7 +109,7 @@
           @click="$emit('update:texture', tex.filename)"
           :title="tex.name"
         >
-          <div class="texture-preview" :style="{ backgroundImage: `url(/app/src/assets/textures/${tex.previewPic || tex.filename})`, backgroundColor: tex.fallbackColor }"></div>
+          <div class="texture-preview" :style="{ backgroundImage: `url(/src/assets/textures/${tex.previewPic || tex.filename})`, backgroundColor: tex.fallbackColor }"></div>
         </button>
       </div>
     </div>

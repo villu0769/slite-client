@@ -2,7 +2,7 @@
   <div class="project-card">
     <div class="header-info" @click="handleOnClick(props.projectData._id)">
       <div class="header-preview">
-        <img :src="props.projectData.previewImage?props.projectData.previewImage:'/app/project-placeholder.jpg'" alt="Project Preview" />
+        <img :src="props.projectData.previewImage?props.projectData.previewImage:'/project-placeholder.jpg'" alt="Project Preview" />
       </div>
       <div class="header-details">
         <span class="header-title">{{ props.projectData.name }}</span>
