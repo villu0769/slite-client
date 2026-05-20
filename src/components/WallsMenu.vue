@@ -52,7 +52,7 @@
 
           <div v-if="selectedCategory === 'room'" class="room-form">
             <div class="input-group">
-              <label>Width (m)</label>
+              <label>Дължина (м)</label>
               <div class="custom-number">
                 <input type="number" v-model.number="roomSize.width" min="1" step="0.5" />
                 <div class="step-controls">
@@ -62,7 +62,7 @@
               </div>
             </div>
             <div class="input-group">
-              <label>Дължина (м)</label>
+              <label>Дълочина (м)</label>
               <div class="custom-number">
                 <input type="number" v-model.number="roomSize.length" min="1" step="0.5" />
                 <div class="step-controls">
