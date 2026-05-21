@@ -1,5 +1,5 @@
-name: Slite-Client
-app_id: da_nBBIbtXUByY7
+name: Slite
+app_id: da_RpXImtBUvAd1
 owner: villu0769
 package: .
 kind: wasmer.io/App.v0
